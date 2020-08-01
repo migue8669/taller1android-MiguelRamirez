@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="401dp"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textNum1"
+            android:layout_width="430dp"
+            android:layout_height="66dp"
+            android:text="Ingrese valor por hora" />
+
+        <EditText
+            android:id="@+id/editNum1"
+            android:layout_width="453dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberSigned" />
+
+        <TextView
+            android:id="@+id/textNum2"
+            android:layout_width="451dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ingrese cantidad de horas" />
+
+        <EditText
+            android:id="@+id/editNum2"
+            android:layout_width="437dp"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/Resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor a pagar" />
+
+        <EditText
+            android:id="@+id/editResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Calcular" />
+
+</android.widget.LinearLayout>
