@@ -25,7 +25,7 @@
             android:layout_height="2dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="numberSigned" />
+            android:inputType="numberDecimal" />
 
         <TextView
             android:id="@+id/textNum2"
